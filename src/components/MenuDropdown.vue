@@ -3,7 +3,7 @@
     <div class="dropdown as-dropdown-menu">
       <div class="as-navbar__dropdown-button">
         <p class="as-navbar__dropdown-button--name">{{ name }}</p>
-        <i class="fas fa-angle-down"></i>
+        <i class="as-icon-arrow-down"></i>
       </div>
       <div class="as-navbar__dropdown-container">
         <div class="as-navbar__dropdown-content" v-if="list && list.length > 0">
